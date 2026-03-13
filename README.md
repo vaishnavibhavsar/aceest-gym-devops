@@ -306,7 +306,7 @@ Example sections:
 
 ## Docker Build
 
-![Docker Build](images/docker-build.png)
+![Docker Build](images/1_basic setup.png)
 
 ## Running Container
 
@@ -341,3 +341,4 @@ By integrating **version control, automated testing, containerization, and CI/CD
 
 Vaishnavi Bhavsar
 DevOps Assignment – ACEest Fitness & Gym
+
