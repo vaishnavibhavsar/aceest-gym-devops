@@ -1,4 +1,4 @@
-# ACEest Fitness & Gym – DevOps CI/CD Pipeline
+<img width="1403" height="700" alt="2_building_docker_image_and_running_docker" src="https://github.com/user-attachments/assets/1804f510-baa2-4644-9044-448367e078e2" /># ACEest Fitness & Gym – DevOps CI/CD Pipeline
 
 ## Project Overview
 
@@ -308,7 +308,7 @@ This workflow ensures:
 
 ## 2. Building Docker Image & Running Container
 
-<img src="images/2_building_docker_image_and_run.png" width="800">
+<img width="1403" height="700" alt="2_building_docker_image_and_running_docker" src="https://github.com/user-attachments/assets/29223def-d9ba-442a-a32c-0dc8baa59dd2" />
 
 ---
 
