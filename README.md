@@ -300,23 +300,51 @@ This workflow ensures:
 
 # Screenshots
 
-*(Add screenshots here if required)*
+## 1. Basic Setup
 
-Example sections:
-
-## Docker Build
-
-![Docker Build](images/1_basic setup.png)
-
-## Running Container
-
-![Docker Container](images/docker-run.png)
-
-## API Endpoint Test
-
-![API Test](images/api-test.png)
+<img src="images/1_basic setup.png" width="800">
 
 ---
+
+## 2. Building Docker Image & Running Container
+
+<img src="images/2_building docker image and run.png" width="800">
+
+---
+
+## 3. Localhost Endpoint
+
+<img src="images/3_localhost endpoint.png" width="800">
+
+---
+
+## 4. Health Endpoint
+
+<img src="images/4_localhost health endpoint.png" width="800">
+
+---
+
+## 5. Get Members List Output
+
+<img src="images/5_get members list output.png" width="800">
+
+---
+
+## 6. Add Members Endpoint (Command)
+
+<img src="images/6_add members endpoint- command.png" width="800">
+
+---
+
+## 7. Add Members Output
+
+<img src="images/7_add members - khushi.png" width="800">
+
+---
+
+## 8. All Endpoints Success (Logs)
+
+<img src="images/8_all endpoints success in logs.png" width="800">
 
 # Future Improvements
 
