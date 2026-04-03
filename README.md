@@ -308,7 +308,7 @@ This workflow ensures:
 
 ## 2. Building Docker Image & Running Container
 
-<img src="images/2_building docker image and run.png" width="800">
+<img src="images/2_building_docker_image_and_run.png" width="800">
 
 ---
 
