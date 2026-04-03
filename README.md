@@ -346,6 +346,11 @@ This workflow ensures:
 
 <img src="images/8_all endpoints success in logs.png" width="800">
 
+## 9. All Test Cases Run Success (Logs)
+
+<img width="1346" height="765" alt="9_test_cases_run" src="https://github.com/user-attachments/assets/a887ac71-bf0d-4ce2-832e-7f6a9459f471" />
+
+
 # Future Improvements
 
 Potential enhancements for this project include:
