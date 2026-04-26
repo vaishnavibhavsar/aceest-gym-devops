@@ -22,7 +22,7 @@ This project demonstrates a complete CI/CD pipeline using Jenkins, Docker, Sonar
 minikube start
 2. Use Minikube Docker Environment
 eval $(minikube docker-env)
-<img width="1402" height="376" alt="1_minikube_ setup" src="https://github.com/user-attachments/assets/c8cc9b73-ffac-4f0a-889c-a142c9ef2cfe" />
+<img src="images/Assignment_2_screenshots_minikube_setup.png" width="800">
 
 3. Build Docker Image
 docker build -t aceest-app:jenkins .
