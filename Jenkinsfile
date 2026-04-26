@@ -36,16 +36,19 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('SonarQube') {
-                    withCredentials([string(credentialsId: 'SONAR_AUTH_TOKEN', variable: 'SONAR_TOKEN')]) {
-                        sh '''
-                        . venv/bin/activate
-                        sonar-scanner \
-                        -Dsonar.projectKey=aceest-app \
-                        -Dsonar.sources=. \
-                        -Dsonar.host.url=http://host.docker.internal:9000 \
-                        -Dsonar.login=$SONAR_TOKEN
-                        '''
+                script {
+                    def scannerHome = tool 'sonar-scanner'
+                    withSonarQubeEnv('SonarQube') {
+                        withCredentials([string(credentialsId: 'SONAR_TOKEN', variable: 'SONAR_TOKEN')]) {
+                            sh """
+                            . venv/bin/activate
+                            ${scannerHome}/bin/sonar-scanner \
+                              -Dsonar.projectKey=aceest-app \
+                              -Dsonar.sources=. \
+                              -Dsonar.host.url=http://host.docker.internal:9000 \
+                              -Dsonar.login=$SONAR_TOKEN
+                            """
+                        }
                     }
                 }
             }
@@ -65,6 +68,5 @@ pipeline {
                 '''
             }
         }
-
     }
 }
