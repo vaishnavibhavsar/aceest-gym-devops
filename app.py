@@ -6,7 +6,7 @@ members = []
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Welcome to ACEest Fitness & Gym API"})
+    return jsonify({"message": "Welcome to ACEest Fitness & Gym API - Version 2 "})
 
 @app.route('/members', methods=['GET'])
 def get_members():
